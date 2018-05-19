@@ -1,0 +1,16 @@
+{
+  "Cards": [
+    {
+      "title": "The first card",
+      "content": "This is my first card"
+    },
+    {
+      "title": "The second card",
+      "content": "This is my second card"
+    },
+    {
+      "title": "The third card",
+      "content": "This is my third card"
+    }
+  ]
+}

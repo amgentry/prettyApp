@@ -1,0 +1,61 @@
+page-login {
+
+  .image {
+    background-image: url("../assets/imgs/bg4.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+  }
+
+  h1, h4 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+  }
+
+  p{
+    color: white;
+    font-size: 20px;
+  }
+
+  .create {
+    text-align: center;
+  }
+
+  .createBtn {
+    color: #e4bed0;
+    cursor: pointer;
+  }
+
+  .moveUp {
+    margin-top: -16px;
+  }
+
+  .parentMoveBtn{
+    text-align: center;
+    //position: absolute;
+
+  }
+
+  .moveBtn{
+    background-color: #e4bed0;
+
+    //position: absolute;
+    //display: flex;
+    margin: auto;
+    display: block;
+  }
+
+  .moveBtn:hover {
+    background-color: #e4bed0;
+  }
+
+  .homeContent{
+    //margin-top: 10%;
+  }
+}
+
+
+

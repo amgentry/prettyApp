@@ -1,0 +1,39 @@
+<!--
+  Generated template for the CreateAccountPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>createAccount</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <div class="formHolder">
+    <h1 class="registerUser">Register User</h1>
+    <form [formGroup]="registerForm" (ngSubmit)="registerSubmitForm()">
+      <ion-item>
+        <ion-label floating>First Name</ion-label>
+        <ion-input type="text" formControlName="fName"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label floating>Last Name</ion-label>
+        <ion-input type="text" formControlName="lName"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label floating>Email Address</ion-label>
+        <ion-input type="email" formControlName="email"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label floating>Password</ion-label>
+        <ion-input type="password" formControlName="password"></ion-input>
+      </ion-item>
+      <button class="submitBtn" full ion-button type="submit" [disabled]="!registerForm.valid">Create Account</button>
+    </form>
+  </div>
+</ion-content>

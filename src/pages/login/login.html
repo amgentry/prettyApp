@@ -1,0 +1,26 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+    <ion-navbar>
+        <ion-title>Card App</ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="image">
+    <div class="homeContent">
+        <h1>Welcome to Card App</h1>
+        <h4>Choose how you login.</h4>
+        <div class="parentMoveBtn">
+            <button class="moveBtn" ion-button (click)="loginClick()">Email/Password</button>
+        </div>
+        <p class="create">Don't have an account?</p>
+        <p class="create moveUp">Create one <span class="createBtn" (click)="createAccount()">here.</span></p>
+    </div>
+</ion-content>
